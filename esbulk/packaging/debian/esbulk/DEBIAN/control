@@ -1,0 +1,9 @@
+Package: esbulk
+Version: 0.4.4
+Section: utils
+Priority: optional
+Architecture: amd64
+Essential: no
+Depends: libc6 (>= 2.12)
+Maintainer: saksham
+Description: Fast parallel bulk loading utility for elasticsearch.
