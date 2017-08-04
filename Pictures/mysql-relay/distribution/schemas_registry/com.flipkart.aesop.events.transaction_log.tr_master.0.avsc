@@ -1,0 +1,144 @@
+{
+  "name" : "tr_master",
+  "type" : "record",
+  "doc" : "Auto-generated Avro schema for tr_master. Generated at Aug 03, 2017 12:38:45 PM IST",
+  "namespace" : "transaction_log",
+  "meta":"pk=id",
+  "fields" : [ {
+    "name" : "id",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=id;dbFieldPosition=1;dbFieldType=bigint"
+  }, {
+    "name" : "tx_id",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=tx_id;dbFieldPosition=2;dbFieldType=varchar"
+  }, {
+    "name" : "tx_api",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=tx_api;dbFieldPosition=3;dbFieldType=varchar"
+  }, {
+    "name" : "tx_start",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=tx_start;dbFieldPosition=4;dbFieldType=datetime"
+  }, {
+    "name" : "tx_end",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=tx_end;dbFieldPosition=5;dbFieldType=datetime"
+  }, {
+    "name" : "csp_user_id",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=csp_user_id;dbFieldPosition=6;dbFieldType=varchar"
+  }, {
+    "name" : "csp_user_id_type",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=csp_user_id_type;dbFieldPosition=7;dbFieldType=varchar"
+  }, {
+    "name" : "csp_user_name",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=csp_user_name;dbFieldPosition=8;dbFieldType=varchar"
+  }, {
+    "name" : "csp_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=csp_id;dbFieldPosition=9;dbFieldType=int"
+  }, {
+    "name" : "csp_code",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=csp_code;dbFieldPosition=10;dbFieldType=varchar"
+  }, {
+    "name" : "csp_name",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=csp_name;dbFieldPosition=11;dbFieldType=varchar"
+  }, {
+    "name" : "distributor_id",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=distributor_id;dbFieldPosition=12;dbFieldType=varchar"
+  }, {
+    "name" : "distributor_code",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=distributor_code;dbFieldPosition=13;dbFieldType=varchar"
+  }, {
+    "name" : "distributor_name",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=distributor_name;dbFieldPosition=14;dbFieldType=varchar"
+  }, {
+    "name" : "partner_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=partner_id;dbFieldPosition=15;dbFieldType=int"
+  }, {
+    "name" : "partner_code",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=partner_code;dbFieldPosition=16;dbFieldType=varchar"
+  }, {
+    "name" : "partner_name",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=partner_name;dbFieldPosition=17;dbFieldType=varchar"
+  }, {
+    "name" : "cust_id_type",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=cust_id_type;dbFieldPosition=18;dbFieldType=varchar"
+  }, {
+    "name" : "cust_id_value",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=cust_id_value;dbFieldPosition=19;dbFieldType=varchar"
+  }, {
+    "name" : "cust_name",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=cust_name;dbFieldPosition=20;dbFieldType=varchar"
+  }, {
+    "name" : "location",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=location;dbFieldPosition=21;dbFieldType=varchar"
+  }, {
+    "name" : "client_ip",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=client_ip;dbFieldPosition=22;dbFieldType=varchar"
+  }, {
+    "name" : "sim_serial_no",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=sim_serial_no;dbFieldPosition=23;dbFieldType=varchar"
+  }, {
+    "name" : "device_id",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=device_id;dbFieldPosition=24;dbFieldType=varchar"
+  }, {
+    "name" : "attempt_no",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=attempt_no;dbFieldPosition=25;dbFieldType=int"
+  }, {
+    "name" : "tx_amount",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=tx_amount;dbFieldPosition=26;dbFieldType=bigint"
+  }, {
+    "name" : "tx_charge",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=tx_charge;dbFieldPosition=27;dbFieldType=bigint"
+  }, {
+    "name" : "svc_charge",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=svc_charge;dbFieldPosition=28;dbFieldType=bigint"
+  }, {
+    "name" : "tx_domain",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=tx_domain;dbFieldPosition=29;dbFieldType=varchar"
+  }, {
+    "name" : "tx_type",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=tx_type;dbFieldPosition=30;dbFieldType=varchar"
+  }, {
+    "name" : "tx_sub_type",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=tx_sub_type;dbFieldPosition=31;dbFieldType=varchar"
+  }, {
+    "name" : "tx_category",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=tx_category;dbFieldPosition=32;dbFieldType=varchar"
+  }, {
+    "name" : "tx_purpose",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=tx_purpose;dbFieldPosition=33;dbFieldType=varchar"
+  }, {
+    "name" : "created_on",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=created_on;dbFieldPosition=34;dbFieldType=datetime"
+  } ]
+}
